@@ -11,6 +11,10 @@ Now you can install delve using `go get`:
 ```
 $ go get github.com/go-delve/delve/cmd/dlv
 ```
+or
+```
+$ go install github.com/go-delve/delve/cmd/dlv@latest
+```
 
 Note: if you are using Go in modules mode you must execute this command outside of a module directory or Delve will be added to your project as a dependency.
 
